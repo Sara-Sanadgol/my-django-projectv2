@@ -1,3 +1,5 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def scent_list(request):
+    return render(request, 'perfume.scent_list.html', {})
